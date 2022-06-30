@@ -1,0 +1,83 @@
+body {
+    background: #0d93b4;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    max-width: fit-content;
+    border:2px solid rgb(241, 207, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    
+    font: 80px Garamond, Helvetica, serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(196, 27, 126), 0 0 25px rgb(218, 15, 42), 0 0 5px rgb(2, 2, 31);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(196, 27, 126), 0 0 25px rgb(218, 15, 42), 0 0 5px rgb(2, 2, 31);
+
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+thead {
+    text-align: center;
+}
+
+label {
+    margin: 5px;
+}
+
+#submit-btn {
+    background-color:black;
+    color:azure;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
+
+.menu {
+    margin: 10px 0 0 10px;
+    padding: 10px;
+}
+
+hr {
+    border-top: 2px solid rgb(241, 207, 12);
+}
+
+.line {
+    margin-top: 20px;
+    border-top: 2px solid rgb(241, 207, 12);
+}
+
+.submit {
+    margin: 0 auto
+}
+
+.contact {
+    color:azure;
+    text-align: center;
+}
+
+th {
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    display: block;
+}
+
+input[type="range"] {
+    display: block;
+    margin: 20px;
+}
